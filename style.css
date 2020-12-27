@@ -1,0 +1,236 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lobster Two', sans-serif;
+font-family: 'Bungee Outline', sans-serif;
+*/
+
+/*
+16px = 100% = 1em(M) = 1rem
+*/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+   font-family: 'Bungee Outline', sans-serif;
+   font-weight: 950;
+   font-size: 5rem;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-top: 200px;
+   color: #66BFBF;
+}
+span
+{
+   text-decoration: underline;
+}
+.hello
+{
+   font-family: 'Lobster Two', sans-serif;
+   font-size: 2.8125rem;
+   margin-top: 0;
+   margin-bottom: 0;
+   color: #66BFBF;
+}
+.heading
+{
+   font-size:2.875rem;
+   margin-top: 20px;
+   color: #66BFBF;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+}
+.bottom-container
+{
+   background-color: #66BFBF;
+   padding-top: 30px;
+   position: relative;
+   margin-top: 80px;
+}
+.bottom-cloud
+{
+   position: absolute;
+   left: 250px;
+   bottom: 300px;
+}
+.top-cloud
+{
+   position: absolute;
+   right: 300px;
+   top: 40px;
+}
+.profilepic
+{
+   padding-top: 100px;
+}
+#python
+{
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+#html
+{
+   width: 25%;
+   float: right;
+}
+#css
+{
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+#js
+{
+   width: 25%;
+   float: right;
+}
+#c
+{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+#java
+{
+   width: 25%;
+   float: right;
+}
+#photo
+{
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+#lightroom
+{
+   width: 25%;
+   float: right;
+}
+#photoshop
+{
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+.skills
+{
+   width: 80%;
+   margin: 0 auto 0 auto;
+}
+.attribution
+{
+   font-size: x-small;
+   color: #EAF6F6;
+}
+.skill-row
+{
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+}
+.skillname
+{
+   font-size: 1.375rem;
+   color:#11999E;
+   margin-top: 0px;
+   margin-bottom: 5px;
+   padding-top: 30px;
+   line-height:1;
+}
+.skilldesc
+{
+   font-size: 1.10rem;
+   margin-top: 0px;
+   line-height: 2;
+}
+.myskills
+{
+   font-family: 'Lobster Two', sans-serif;
+   font-size: 2.1875rem;
+   color: #66BFBF;
+}
+.touch
+{
+   font-family: 'Lobster Two', sans-serif;
+   font-size: 2.7rem;
+   color:#66BFBF;
+}
+.freelancing
+{
+   font-size: 1.6rem;
+   color:#66BFBF;
+   font-weight: normal;
+   line-height: 50px;
+   margin-bottom: 0px;
+}
+.intro
+{
+   font-size: 1.15rem;
+   margin: 10px auto 10px auto;
+}
+.reachmsg
+{
+   font-size: 1.09rem;
+   font-weight: normal;
+   line-height: 80px;
+   margin-top: 0px;
+   margin-bottom: 30px;
+}
+.footer-link
+{
+   font-size: 1.25rem;
+   padding-right: 50px;
+   margin-top: 0px;
+}
+a
+{
+   color:#11999E;
+   text-decoration: none;
+}
+a:hover
+{
+   color:#EAF6F6
+}
+.btn {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3c93fc);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3c93fc);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3c93fc);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3c93fc);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3c93fc);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3c83fc;
+  background-image: -webkit-linear-gradient(top, #3c83fc, #472fcc);
+  background-image: -moz-linear-gradient(top, #3c83fc, #472fcc);
+  background-image: -ms-linear-gradient(top, #3c83fc, #472fcc);
+  background-image: -o-linear-gradient(top, #3c83fc, #472fcc);
+  background-image: linear-gradient(to bottom, #3c83fc, #472fcc);
+  text-decoration: none;
+}
+.copyright
+{
+   font-size: 0.8rem;
+   color:#EAF6F6;
+}
+hr
+{
+   /*#EAF6F6*/
+   border: dotted #EAF6F6 6px;
+   border-bottom: none;
+   width: 4%;
+   margin: 100px auto;
+}
